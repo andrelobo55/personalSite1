@@ -1,0 +1,127 @@
+#header {
+    /* background-color:; */
+    /* color: white; */
+    text-align: center;
+    padding-top: 80px;
+    background-color: aquamarine;
+    padding-bottom: 50px;
+    color: rgb(14, 129, 129);
+    font: normal 20pt Arial;
+}
+
+body {
+    margin: 0px;
+}
+
+#bd1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#bd1 h2 {
+    font: normal 20pt Arial;
+}
+
+#bd1 p {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    padding-bottom: 100px;
+    color: gray;
+    font: normal 12pt Arial;
+}
+
+#bd1 h2 {
+    padding: 10px;
+    color: rgb(14, 129, 129);
+
+}
+
+/* .container {
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns:1fr;
+    gap: 20px;
+} */
+
+#compet h2 {
+    text-align: center;
+    color: rgb(14, 129, 129);
+    padding-bottom: 80px;
+    font: normal 20pt Arial;
+}
+
+#compet p {
+    width: 80%;
+    margin-right: 50%;
+    text-align: justify;
+    color: gray;
+    font: normal 12pt Arial;
+}
+
+#compet img {
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+    margin-left: 50%;
+}
+
+@media (max-width: 992px) {
+    #bd2 {
+        display: flex;
+        text-align: center;
+    }
+
+    #compet p {
+        margin-right: 0;
+        padding: 30px;
+        text-align: center;
+        width: 100%;
+        color: gray;
+        font: normal 12pt Arial;
+    }
+
+    #compet img {
+        margin-left: 0;
+    }
+}
+
+#bd2 {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+    padding-bottom: 80px; */
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#eu {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+#bd3 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(14, 129, 129);
+}
+
+footer {
+    padding: 5px;
+    margin-top: 80px;
+    background-color: rgb(78, 212, 167);
+}
